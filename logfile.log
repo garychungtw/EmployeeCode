@@ -1,0 +1,24 @@
+[2021-09-24 13:28:10.044341  656c][ERROR ] no such table: config:
+SELECT * FROM config WHERE server_id IS NULL
+[2021-09-24 13:28:10.046340  656c][ERROR ] no such table: config:
+SELECT COUNT(*) AS "count" FROM (SELECT * FROM config WHERE section = 'General' AND item = 'EnableRelay' AND server_id is NULL)
+[2021-09-24 13:28:10.047342  656c][ERROR ] no such table: config:
+INSERT INTO config(section, item, data) VALUES('General','EnableRelay','false')
+[2021-09-24 13:29:25.555770  5e4c][ERROR ] no such table: config:
+SELECT * FROM config WHERE server_id IS NULL
+[2021-09-24 13:30:18.769301  4d08][ERROR ] no such table: config:
+SELECT * FROM config WHERE server_id IS NULL
+[2021-09-24 13:30:38.630996  6204][ERROR ] no such table: config:
+SELECT * FROM config WHERE server_id IS NULL
+[2021-09-24 13:31:51.785362  5b80][ERROR ] no such table: config:
+SELECT * FROM config WHERE server_id IS NULL
+[2021-09-24 13:32:25.352983  1a1c][ERROR ] no such table: config:
+SELECT * FROM config WHERE server_id IS NULL
+[2021-09-24 13:32:55.164245  6c7c][ERROR ] no such table: config:
+SELECT * FROM config WHERE server_id IS NULL
+[2021-09-24 13:35:12.334562  621c][ERROR ] no such table: config:
+SELECT * FROM config WHERE server_id IS NULL
+[2021-09-24 13:35:12.337563  621c][ERROR ] no such table: config:
+SELECT COUNT(*) AS "count" FROM (SELECT * FROM config WHERE section = 'General' AND item = 'EnableRelay' AND server_id is NULL)
+[2021-09-24 13:35:12.338565  621c][ERROR ] no such table: config:
+INSERT INTO config(section, item, data) VALUES('General','EnableRelay','false')
